@@ -1,0 +1,63 @@
+---
+project: 'vvp-validation-scripts'
+project_creation_date: '2017-06-29'
+project_category: ''
+lifecycle_state: 'Incubation'
+project_lead: &onap_releng_ptl
+    name: 'Steven Stark`'
+    email: 'steven.stark@att.com'
+    id: 'ss820f'
+    company: 'ATT'
+    timezone: 'America/Los Angeles'
+primary_contact: *onap_releng_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.onap.org/projects/VVP'
+    key: 'VVP'
+mailing_list:
+    type: 'groups.io'
+    url: 'lists.onap.org'
+    tag: '<[sub-project_name]>'
+realtime_discussion: ''
+meetings:
+    - type: 'zoom'
+      agenda: 'https://wiki.onap.org/display/DW/2018+VVP+Project+Team+Meetings'
+      url: 'https://wiki.onap.org/pages/viewpage.action?pageId=25439844'
+      server: 'n/a'
+      channel: 'n/a'
+      repeats: 'weekly'
+      time: '15:00 UTC'
+repositories:
+    - 'vvp/validation-scripts'
+committers:
+    - <<: *onap_releng_ptl
+    - name: 'Edan Binshtok'
+      email: 'eb578m@intl.att.com'
+      company: 'ATT'
+      id: 'edan.binshtok'
+      timezone: 'Asia/Tel_Aviv'
+    - name: 'Erik Sundelof'
+      email: 'es4410@att.com'
+      company: 'ATT'
+      id: 'eriks'
+      timezone: 'America/Los Angeles'
+    - name: 'Trevor Lovett'
+      email: 'trevor.lovett@att.com'
+      company: 'ATT'
+      id: 'tl2972'
+      timezone: 'America/Chicago'
+tsc:
+    approval: 'https://lists.onap.org/pipermail/onap-tsc'
+    changes:
+        - type: 'Addition'
+          name: 'Trevor Lovett'
+          link: 'https://lists.onap.org/g/onap-tsc/message/5811'
+        - type: 'Addition'
+          name: 'Steven Stark'
+          link: 'https://lists.onap.org/g/onap-tsc/message/3123'
+        - type: 'Removal'
+          name: 'Chris Donley'
+          link: 'https://lists.onap.org/g/onap-tsc/message/5787'
+        - type: 'Removal'
+          name: 'Sandeep Shah'
+          link: 'https://lists.onap.org/g/onap-tsc/message/5787'
