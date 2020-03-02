@@ -1,5 +1,5 @@
 ---
-project: 'vvp-validation-scripts'
+project: 'vvp-oom'
 project_creation_date: '2017-06-29'
 project_category: ''
 lifecycle_state: 'Incubation'
@@ -28,7 +28,7 @@ meetings:
       repeats: 'weekly'
       time: '15:00 UTC'
 repositories:
-    - 'vvp/validation-scripts'
+    - 'vvp/oom'
 committers:
     - <<: *onap_releng_ptl
     - name: 'Edan Binshtok'
